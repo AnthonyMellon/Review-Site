@@ -1,0 +1,32 @@
+
+.navBar{
+    display: flex;    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+    background-color: rgb(252, 183, 183);      
+
+}
+
+.navText{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;  
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(253, 92, 92);
+    background-color: rgb(255, 158, 158);
+    color: black;        
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.navText:hover{
+    background-color: rgb(253, 92, 92);
+    border-color: rgb(255, 158, 158);
+}
