@@ -1,32 +1,74 @@
+.header {
 
-.navBar{
-    display: flex;    
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
-    background-color: rgb(252, 183, 183);      
+    text-align: center;
+
+    background-image: url("/images/MC Island.png");
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-position-x: center;    
 
 }
 
-.navText{
+.headerText {
+
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: green;
+    text-shadow: 5px 5px black;
+}
+
+.navigation
+{
+    display: flex;
+    flex-direction: row;
+    
+    align-content: center;
+    
+}
+
+.navBox {
+    
+    display: inline-block;
+    margin: auto;  
+
+    background-image: url("/images/StoneBrick.jpg");
+    background-size: cover;
+       
+    width: 32%;
+    height: 250px;
+
+    text-decoration: none;      
+}
+
+.navigation :hover {
+    width: 33%;
+    height: 250px;
+}
+
+.navText {
+
+    text-align: center;
+    font-size: 50pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;  
+    color: green;   
+    text-shadow: 3px 3px black; 
+}
+
+
+divider {
+    display: flex;
+
     padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;  
-    border: 5px;
-    border-style: solid;
-    border-color: rgb(253, 92, 92);
-    background-color: rgb(255, 158, 158);
-    color: black;        
-    text-decoration: none;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    margin-left: auto; 
-    margin-right: auto;
+    background-color: seagreen;
+    margin: 0%;
+    width: 100%;
 }
 
-.navText:hover{
-    background-color: rgb(253, 92, 92);
-    border-color: rgb(255, 158, 158);
+body {
+    margin: 0%;
 }
