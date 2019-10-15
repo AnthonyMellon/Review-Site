@@ -148,3 +148,16 @@ body
 {
     margin: 0%;
 }
+
+.bodyText
+{
+    display: flex;
+    
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    font-size: 40pt;
+    color: darkgreen;
+
+}
