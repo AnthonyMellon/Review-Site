@@ -187,13 +187,14 @@ table
     font-size: 30pt;
     text-shadow: 2px 2px black;
     color: rgb(1, 167, 1);  
-    border-collapse: collapse;      
+    border-collapse: collapse; 
+    margin-right: 0%;     
 }
 
 tr
 {
-    border-style: solid;
-    border-color: black;
+    border-bottom: black;
+    border-bottom-style: solid;
     border-width: 10px;
     padding-bottom: 40px;
 }
