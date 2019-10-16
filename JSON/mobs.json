@@ -1,0 +1,27 @@
+[
+    {
+       "imageLink": "./images/Mobs/Creeper.png",
+       "mobName": "Creeper",
+       "Description": "An explosive opponent. Dont let it get near your base"
+    },
+    {
+       "imageLink": "./images/Mobs/Enderman.png",
+       "mobName": "Enderman",
+       "Description": "A tall mob. Dont look it in the eyes"
+    },
+    {
+       "imageLink": "./images/Mobs/Skeleton.png",
+       "mobName": "Skeleton",
+       "Description": "A skinny mob. It will try to shoot you from a distance"
+    },
+    {
+       "imageLink": "./images/Mobs/Spider.png",
+       "mobName": "Spider",
+       "Description": "The dark makes this massive spider real mad. It can also climb walls"
+    },
+    {
+       "imageLink": "./images/Mobs/Zombie.png",
+       "mobName": "Zombie",
+       "Description": "A green mob that will try to kill innocent villagers"
+    }
+ ]
