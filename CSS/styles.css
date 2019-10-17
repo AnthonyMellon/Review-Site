@@ -41,6 +41,7 @@
     margin-top: 0%;
     margin-right: 0.25%;
     margin-left: 0.25%;
+    margin-bottom: 10px;
     width: 100%;
 
     height: 250px;
@@ -114,23 +115,14 @@
     display: initial;    
 }
 
-.navigation:hover .riseText
-{
-    display: none;    
-}
-
 .dropDown:hover
 {
-    margin-right: 0.25%;
-    margin-left: 0.25%;
-    width: 110%;
+   opacity: 0.9; 
 }
 
 .navBox:hover
 {
-    margin-right: 0.25%;
-    margin-left: 0.25%;
-    width: 110%;
+    opacity: 0.9;
 }
 
 
@@ -187,7 +179,7 @@ table
     text-shadow: 2px 2px black;
     color: rgb(1, 167, 1);  
     border-collapse: collapse; 
-    margin-right: 0%;     
+    margin-right: 0%;    
 }
 
 tr
@@ -195,10 +187,57 @@ tr
     border-bottom: black;
     border-bottom-style: solid;
     border-width: 10px;
-    padding-bottom: 40px;
+    height: 200px;
+    
 }
 
-td
+.starBox
 {
-    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
 }
+
+items
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.starTable
+{
+    width: 300px;
+}
+
+@media screen and (max-width: 1268px)
+{
+    .navigation
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1172px)
+{
+    tr
+    {
+        height: 242px;
+    }
+}
+
+@media screen and (max-width: 1124px)
+{
+    tr
+    {
+        height: 289px;
+    }
+}
+
+@media screen and (max-width: 1096px)
+{
+    tr
+    {
+        height: 336px;
+    }
+}
+
+
