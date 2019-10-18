@@ -203,6 +203,15 @@ items
     flex-direction: row;
 }
 
+commentSection
+{
+    text-shadow: 2px 2px black;
+    color: rgb(1, 167, 1);
+    font-size: 25pt;
+}
+
+
+
 .starTable
 {
     width: 300px;
