@@ -6,7 +6,7 @@
     
     text-align: center;
 
-    background-image: url("/images/MC Island.png");
+    background-image: url("/Review-Site/images/MC Island.png");
     background-size: cover;    
     background-repeat: no-repeat;
     background-position-x: center;    
@@ -48,7 +48,7 @@
 
     text-decoration: none;  
 
-    background-image: url("/images/StoneBrick.jpg");
+    background-image: url("/Review-Site/images/StoneBrick.jpg");
     background-size: 100px;
     background-repeat: repeat;
 }
@@ -67,7 +67,7 @@
 
     text-decoration: none;  
 
-    background-image: url("/images/StoneBrick.jpg");
+    background-image: url("/Review-Site/images/StoneBrick.jpg");
     background-size: 100px;
     background-repeat: repeat;
 }
@@ -102,7 +102,7 @@
     border-style: solid;
     border-color: black;
 
-    background-image: url("/images/Brick.png");
+    background-image: url("/Review-Site/images/Brick.png");
     background-size: 100px;
     background-repeat: repeat; 
 
@@ -140,7 +140,7 @@ body
 {
     margin: 0%;
 
-    background-image: url("/images/Dirt Texture.jpg");
+    background-image: url("/Review-Site/images/Dirt Texture.jpg");
     background-repeat: repeat;
     background-size: 100px;
     background-position-x: center;     
@@ -167,7 +167,7 @@ body
     padding-bottom: 200px;
     margin-bottom: 0%;
 
-    background-image: url("/images/MC Base.png");
+    background-image: url("/Review-Site/images/MC Base.png");
     background-size: cover;    
     background-repeat: no-repeat;
 
