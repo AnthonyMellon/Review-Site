@@ -187,7 +187,7 @@ tr
     border-bottom: black;
     border-bottom-style: solid;
     border-width: 10px;
-    height: 200px;
+    height: 482px;
     
 }
 
@@ -229,30 +229,6 @@ form
     .navigation
     {
         flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 1172px)
-{
-    tr
-    {
-        height: 242px;
-    }
-}
-
-@media screen and (max-width: 1124px)
-{
-    tr
-    {
-        height: 289px;
-    }
-}
-
-@media screen and (max-width: 1096px)
-{
-    tr
-    {
-        height: 336px;
     }
 }
 
